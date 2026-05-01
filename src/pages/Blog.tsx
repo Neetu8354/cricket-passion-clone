@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { BlogPostingSchema } from "@/components/BlogPostingSchema";
 import blogImg from "@/assets/card-fantasy.jpg";
 
@@ -51,6 +52,8 @@ const Blog = () => {
 
         <img src={blogImg} alt="how to login khelo24login step by step guide khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mt-8" loading="lazy" />
       </article>
+
+      <RelatedLinks links={[{ to: "/blog/how-to-use-khelo24login-online", label: "How to Use Khelo24Login Online" }, { to: "/blog/how-to-join-online-sports-gaming-website", label: "How to Join & Get Free ID" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/about", label: "About Khelo24Login.live" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

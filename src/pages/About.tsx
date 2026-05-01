@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { ShieldCheck, Smartphone, Zap, Headphones, MessageCircle } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import aboutImg from "@/assets/promo-live.jpg";
 
 const FEATURES = [
@@ -80,6 +81,8 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <RelatedLinks links={[{ to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Crash Game" }, { to: "/teen-patti", label: "Play Teen Patti Online" }, { to: "/blog", label: "Read Our Gaming Guides" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

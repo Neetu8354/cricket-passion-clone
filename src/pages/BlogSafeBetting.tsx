@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { BlogPostingSchema } from "@/components/BlogPostingSchema";
 import blogImg from "@/assets/promo-live.jpg";
 
@@ -72,6 +73,8 @@ const BlogSafeBetting = () => {
           </Button>
         </div>
       </article>
+
+      <RelatedLinks links={[{ to: "/blog/best-online-sports-betting-platform-for-beginners", label: "Best Platform for Beginners" }, { to: "/blog/how-sports-betting-platforms-work-online", label: "How Betting Platforms Work" }, { to: "/blog/mobile-friendly-sports-betting-platforms", label: "Mobile Friendly Platforms" }, { to: "/about", label: "About Khelo24Login.live" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

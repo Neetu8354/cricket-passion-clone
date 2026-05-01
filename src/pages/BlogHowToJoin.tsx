@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { BlogPostingSchema } from "@/components/BlogPostingSchema";
 import blogImg from "@/assets/card-prediction.jpg";
 
@@ -77,6 +78,8 @@ const BlogHowToJoin = () => {
           </Button>
         </div>
       </article>
+
+      <RelatedLinks links={[{ to: "/blog/how-to-login-khelo24login", label: "How to Login Khelo24Login" }, { to: "/blog/how-to-use-khelo24login-online", label: "How to Use Khelo24Login" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

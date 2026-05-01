@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { BlogPostingSchema } from "@/components/BlogPostingSchema";
 import blogImg from "@/assets/card-livecricket.jpg";
 
@@ -69,6 +70,8 @@ const BlogCricketTips = () => {
           </Button>
         </div>
       </article>
+
+      <RelatedLinks links={[{ to: "/blog/best-cricket-prediction-sites-online", label: "Best Cricket Prediction Sites" }, { to: "/blog/how-to-bet-on-live-cricket-matches-online", label: "How to Bet on Live Cricket" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/blog/safe-online-sports-betting-websites-2026", label: "Safe Betting Websites" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

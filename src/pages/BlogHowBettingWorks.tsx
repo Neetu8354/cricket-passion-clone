@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import { BlogPostingSchema } from "@/components/BlogPostingSchema";
 import blogImg from "@/assets/promo-arcade.jpg";
 
@@ -72,6 +73,8 @@ const BlogHowBettingWorks = () => {
           </Button>
         </div>
       </article>
+
+      <RelatedLinks links={[{ to: "/blog/best-online-sports-betting-platform-for-beginners", label: "Best Platform for Beginners" }, { to: "/blog/safe-online-sports-betting-websites-2026", label: "Safe Betting Websites 2026" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>
