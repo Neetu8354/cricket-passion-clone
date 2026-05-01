@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Rocket, Target, Gift } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import aviatorImg from "@/assets/promo-arcade.jpg";
 import aviatorImg2 from "@/assets/card-roulette.jpg";
 
@@ -67,6 +68,8 @@ const Aviator = () => {
           </p>
         </div>
       </section>
+
+      <RelatedLinks links={[{ to: "/cricket", label: "Live Cricket Betting" }, { to: "/teen-patti", label: "Play Teen Patti Online" }, { to: "/blog/best-online-sports-betting-platform-for-beginners", label: "Best Platform for Beginners" }, { to: "/blog/how-to-join-online-sports-gaming-website", label: "How to Join & Start Playing" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

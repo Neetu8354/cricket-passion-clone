@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, TrendingUp, Trophy, BarChart3 } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import cardLive from "@/assets/card-livecricket.jpg";
 
 const TIPS = [
@@ -86,6 +87,8 @@ const Cricket = () => {
           </p>
         </div>
       </section>
+
+      <RelatedLinks links={[{ to: "/blog/live-cricket-betting-tips-online", label: "Cricket Betting Tips 2026" }, { to: "/blog/best-cricket-prediction-sites-online", label: "Best Cricket Prediction Sites" }, { to: "/blog/how-to-bet-on-live-cricket-matches-online", label: "How to Bet on Live Cricket" }, { to: "/about", label: "About Khelo24Login.live" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

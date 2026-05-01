@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Headphones, MessagesSquare } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 
 const Contact = () => {
   useSeo({
@@ -57,6 +58,8 @@ const Contact = () => {
           </Button>
         </div>
       </section>
+
+      <RelatedLinks links={[{ to: "/about", label: "About Khelo24Login.live" }, { to: "/blog/how-to-login-khelo24login", label: "How to Login — Step by Step" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

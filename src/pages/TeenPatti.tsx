@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
+import { RelatedLinks } from "@/components/RelatedLinks";
 import cardTeen from "@/assets/card-teenpatti.jpg";
 
 const TeenPatti = () => {
@@ -47,6 +48,8 @@ const TeenPatti = () => {
           </p>
         </div>
       </section>
+
+      <RelatedLinks links={[{ to: "/aviator", label: "Play Aviator Crash Game" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/blog/safe-online-sports-betting-websites-2026", label: "Safe Betting Websites 2026" }, { to: "/blog/mobile-friendly-sports-betting-platforms", label: "Mobile Friendly Platforms" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>
