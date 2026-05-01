@@ -26,7 +26,7 @@ const BlogSafeBetting = () => {
           Safe Online Sports Betting <span className="text-gradient-gold">Websites 2026</span>
         </h1>
 
-        <img src={blogImg} alt="top online games list 2026 blog banner khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="safe online sports betting websites 2026 khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">How to Identify Safe Betting Platforms</h2>

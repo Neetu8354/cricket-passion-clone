@@ -26,7 +26,7 @@ const BlogHowToUse = () => {
           How to Use <span className="text-gradient-gold">Khelo24Login Online</span> — Complete Guide 2026
         </h1>
 
-        <img src={blogImg} alt="top online games list 2026 blog banner khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="how to use khelo24login online platform guide khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Getting Started with Khelo24Login</h2>

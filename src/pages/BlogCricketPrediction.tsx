@@ -26,7 +26,7 @@ const BlogCricketPrediction = () => {
           Best Cricket Prediction <span className="text-gradient-gold">Sites Online 2026</span>
         </h1>
 
-        <img src={blogImg} alt="best betting platform in india. Join now and play fast khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="best cricket prediction sites online khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Why Predictions Matter in Cricket Betting</h2>

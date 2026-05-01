@@ -26,7 +26,7 @@ const BlogMobileFriendly = () => {
           Mobile Friendly Sports <span className="text-gradient-gold">Betting Platforms 2026</span>
         </h1>
 
-        <img src={blogImg} alt="top online games list 2026 blog banner khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="mobile friendly sports betting platforms khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Why Mobile Betting Is the Future</h2>
