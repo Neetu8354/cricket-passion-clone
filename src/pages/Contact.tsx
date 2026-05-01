@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Headphones, MessagesSquare } from "lucide-react";
 import { useEffect } from "react";
+import { useSeo } from "@/hooks/use-seo";
 
 const Contact = () => {
   useEffect(() => {

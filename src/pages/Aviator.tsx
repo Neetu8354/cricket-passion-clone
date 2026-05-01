@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Rocket, Target, Gift } from "lucide-react";
 import { useEffect } from "react";
+import { useSeo } from "@/hooks/use-seo";
 import aviatorImg from "@/assets/promo-arcade.jpg";
 import aviatorImg2 from "@/assets/card-roulette.jpg";
 

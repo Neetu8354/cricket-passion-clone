@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { useSeo } from "@/hooks/use-seo";
 import { ArrowRight } from "lucide-react";
 
 const BLOGS = [

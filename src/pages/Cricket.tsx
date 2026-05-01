@@ -5,6 +5,7 @@ import { openWA } from "@/lib/wa";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, TrendingUp, Trophy, BarChart3 } from "lucide-react";
 import { useEffect } from "react";
+import { useSeo } from "@/hooks/use-seo";
 import cardLive from "@/assets/card-livecricket.jpg";
 
 const TIPS = [
