@@ -17,6 +17,9 @@ export const PopularGames = () => (
       <h2 className="text-2xl md:text-4xl font-black tracking-tight">
         Popular <span className="text-gradient-gold">Games</span>
       </h2>
+      <p className="text-sm text-muted-foreground mt-2 max-w-2xl mx-auto">
+        Explore top games on <strong className="text-foreground">khelo24login.live</strong> — from <strong className="text-foreground">live cricket betting</strong> and <strong className="text-foreground">Aviator crash game</strong> to <strong className="text-foreground">Teen Patti online</strong>. Get your <strong className="text-foreground">free cricket ID</strong> and start playing today.
+      </p>
     </div>
     <div className="grid sm:grid-cols-3 gap-4">
       {GAMES.map((g) => (
