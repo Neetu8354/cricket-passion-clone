@@ -8,28 +8,28 @@ import cardLive from "@/assets/card-livecricket.jpg";
 import cardPred from "@/assets/card-prediction.jpg";
 import cardLeader from "@/assets/card-leaderboard.jpg";
 
-type Game = { img: string; title: string; tag: string; hot?: boolean };
+type Game = { img: string; title: string; tag: string; hot?: boolean; alt?: string };
 
 const CRICKET: Game[] = [
-  { img: cardLive, title: "Live IPL Match", tag: "LIVE NOW", hot: true },
-  { img: cardFantasy, title: "Fantasy XI", tag: "Win ₹10L" },
-  { img: cardPred, title: "Match Predictions", tag: "Daily Quiz" },
-  { img: cardLeader, title: "Leaderboards", tag: "Top 100", hot: true },
+  { img: cardLive, title: "Live IPL Match", tag: "LIVE NOW", hot: true, alt: "live cricket betting on khelo24login.live" },
+  { img: cardFantasy, title: "Fantasy XI", tag: "Win ₹10L", alt: "fantasy cricket on khelo24login.live" },
+  { img: cardPred, title: "Match Predictions", tag: "Daily Quiz", alt: "cricket predictions on khelo24login.live" },
+  { img: cardLeader, title: "Leaderboards", tag: "Top 100", hot: true, alt: "leaderboards on khelo24login.live" },
 ];
 
 const CASINO: Game[] = [
-  { img: cardAndar, title: "Andar Bahar", tag: "₹10 - ₹5L", hot: true },
-  { img: cardTeen, title: "Teen Patti", tag: "Live Dealer", hot: true },
-  { img: cardRoulette, title: "Lightning Roulette", tag: "500x" },
-  { img: cardAndar, title: "Dragon Tiger", tag: "Fast Paced" },
-  { img: cardTeen, title: "32 Cards", tag: "Indian Live" },
-  { img: cardRoulette, title: "Auto Roulette", tag: "24/7" },
+  { img: cardAndar, title: "Andar Bahar", tag: "₹10 - ₹5L", hot: true, alt: "play andar bahar on khelo24login.live" },
+  { img: cardTeen, title: "Teen Patti", tag: "Live Dealer", hot: true, alt: "play teen patti on khelo24login.live" },
+  { img: cardRoulette, title: "Lightning Roulette", tag: "500x", alt: "play roulette on khelo24login.live" },
+  { img: cardAndar, title: "Dragon Tiger", tag: "Fast Paced", alt: "play dragon tiger on khelo24login.live" },
+  { img: cardTeen, title: "32 Cards", tag: "Indian Live", alt: "play 32 cards on khelo24login.live" },
+  { img: cardRoulette, title: "Auto Roulette", tag: "24/7", alt: "play auto roulette on khelo24login.live" },
 ];
 
 const Card = ({ g }: { g: Game }) => (
   <button onClick={openWA} className="group relative overflow-hidden rounded-xl bg-gradient-card border border-border hover:border-primary/60 transition-smooth shadow-card hover:shadow-glow text-left">
     <div className="aspect-[4/3] overflow-hidden">
-      <img src={g.img} alt={g.title} loading="lazy" width={800} height={600} className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500" />
+      <img src={g.img} alt={g.alt || g.title} loading="lazy" width={800} height={600} className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500" />
     </div>
     <div className="absolute top-2 left-2 flex gap-1.5">
       {g.hot && (
