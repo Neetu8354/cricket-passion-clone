@@ -26,7 +26,7 @@ const BlogHowBettingWorks = () => {
           How Sports Betting Platforms <span className="text-gradient-gold">Work Online</span>
         </h1>
 
-        <img src={blogImg} alt="gaming tips blog for khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="how online sports betting works explained khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Understanding Online Sports Betting</h2>

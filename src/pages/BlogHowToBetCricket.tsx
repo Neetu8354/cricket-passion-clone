@@ -26,7 +26,7 @@ const BlogHowToBetCricket = () => {
           How to Bet on Live Cricket <span className="text-gradient-gold">Matches Online</span>
         </h1>
 
-        <img src={blogImg} alt="gaming tips blog for khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="how to bet on live cricket matches online khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Complete Guide to Live Cricket Betting</h2>

@@ -50,7 +50,7 @@ const Blog = () => {
           </div>
         </section>
 
-        <img src={blogImg} alt="gaming tips blog for khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mt-8" loading="lazy" />
+        <img src={blogImg} alt="how to login khelo24login step by step guide khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mt-8" loading="lazy" />
       </article>
       <Footer />
       <FloatingWhatsApp />

@@ -26,7 +26,7 @@ const BlogCricketTips = () => {
           Live Cricket Betting Tips <span className="text-gradient-gold">Online 2026</span>
         </h1>
 
-        <img src={blogImg} alt="best betting platform in india. Join now and play fast khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="live cricket betting tips online khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Expert Cricket Betting Tips</h2>

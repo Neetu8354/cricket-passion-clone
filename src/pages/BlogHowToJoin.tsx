@@ -26,7 +26,7 @@ const BlogHowToJoin = () => {
           How to Join Online <span className="text-gradient-gold">Sports Gaming Website</span> in 2026
         </h1>
 
-        <img src={blogImg} alt="top online games list 2026 blog banner khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="how to join khelo24login online registration guide khelo24login.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Joining Khelo24Login Is Easy</h2>
