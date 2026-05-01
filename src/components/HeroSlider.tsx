@@ -39,7 +39,7 @@ export const HeroSlider = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 md:via-transparent to-transparent" />
 
         <div className="container relative z-10 flex h-full items-center pb-16 md:pb-0">
-          <div className="max-w-2xl space-y-4 md:space-y-5 animate-float">
+          <div className="max-w-2xl space-y-3 md:space-y-4 animate-float">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/20 border border-secondary/40 text-secondary text-[10px] sm:text-xs font-bold tracking-widest">
               <span className="h-2 w-2 rounded-full bg-secondary animate-pulse" /> {s.eyebrow}
             </span>
@@ -49,11 +49,11 @@ export const HeroSlider = () => {
               ))}
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-xl">{s.sub}</p>
-            <div className="flex flex-col gap-3 pt-2 max-w-md">
-              <Button onClick={openWA} size="lg" className="w-full bg-gradient-gold text-gold-foreground hover:opacity-90 shadow-gold font-bold text-sm sm:text-base">
-                <MessageCircle className="h-5 w-5 mr-2" /> Get ID on WhatsApp
+            <div className="flex flex-col gap-2 pt-1 max-w-md">
+              <Button onClick={openWA} size="default" className="w-full bg-gradient-gold text-gold-foreground hover:opacity-90 shadow-gold font-bold text-sm sm:text-base">
+                <MessageCircle className="h-4 w-4 mr-2" /> Get ID on WhatsApp
               </Button>
-              <Button onClick={openWA} size="lg" variant="outline" className="w-full border-primary/50 text-primary hover:bg-primary/10 font-bold text-sm sm:text-base">
+              <Button onClick={openWA} size="default" variant="outline" className="w-full border-primary/50 text-primary hover:bg-primary/10 font-bold text-sm sm:text-base">
                 Claim ₹15,000 Bonus
               </Button>
             </div>
