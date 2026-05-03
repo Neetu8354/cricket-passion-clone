@@ -25,7 +25,7 @@ export const Header = () => {
           <div className="flex flex-col leading-none min-w-0">
             <span className="font-black text-base sm:text-lg md:text-xl tracking-tight truncate">
             <span className="text-primary">Kheloo24</span>
-              <span className="text-secondary">Bet</span>
+              <span className="text-secondary">Ids</span>
             </span>
             <span className="hidden sm:block text-[10px] text-muted-foreground">Cricket • Casino • Live</span>
           </div>
