@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://kheloo24betting.live/sitemap.xml
+Sitemap: https://khelo24login.live/sitemap.xml

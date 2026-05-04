@@ -7,7 +7,7 @@ interface BlogSchemaProps {
   image?: string;
 }
 
-const SITE = "https://kheloo24betting.live";
+const SITE = "https://khelo24login.live";
 
 export const BlogPostingSchema = ({
   title,
@@ -28,12 +28,12 @@ export const BlogPostingSchema = ({
     dateModified,
     author: {
       "@type": "Organization",
-      name: "Kheloo24Betting.live",
+      name: "Khelo24Login.live",
       url: SITE,
     },
     publisher: {
       "@type": "Organization",
-      name: "Kheloo24Betting.live",
+      name: "Khelo24Login.live",
       url: SITE,
       logo: {
         "@type": "ImageObject",
