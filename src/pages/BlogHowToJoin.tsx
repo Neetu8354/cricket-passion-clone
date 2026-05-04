@@ -12,10 +12,10 @@ import blogImg from "@/assets/card-prediction.jpg";
 
 const BlogHowToJoin = () => {
   useSeo({
-    title: "How to Join Online Sports Gaming Website 2026 | Kheloo24Ids.live",
-    description: "Complete guide on how to join online sports gaming website Kheloo24Ids.live. Get free cricket ID, deposit via UPI, and start playing instantly.",
+    title: "How to Join Online Sports Gaming Website 2026 | Kheloo24Betting.live",
+    description: "Complete guide on how to join online sports gaming website Kheloo24Betting.live. Get free cricket ID, deposit via UPI, and start playing instantly.",
     canonical: "/blog/how-to-join-online-sports-gaming-website",
-    keywords: "join sports gaming website, free cricket id, kheloo24ids join",
+    keywords: "join sports gaming website, free cricket id, kheloo24betting join",
   });
 
   return (
@@ -28,12 +28,12 @@ const BlogHowToJoin = () => {
           How to Join Online <span className="text-gradient-gold">Sports Gaming Website</span> in 2026
         </h1>
 
-        <img src={blogImg} alt="how to join kheloo24ids online registration guide kheloo24ids.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="how to join kheloo24betting online registration guide kheloo24betting.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
-          <h2 className="text-xl md:text-2xl font-bold mb-3">Joining Kheloo24Ids Is Easy</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-3">Joining Kheloo24Betting Is Easy</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Many players search for <strong className="text-foreground">how to join online sports gaming website</strong> but get confused by complicated processes. At Kheloo24Ids.live, we've simplified everything. Our <strong className="text-foreground">online sports gaming platform</strong> lets you join via WhatsApp in under 60 seconds.
+            Many players search for <strong className="text-foreground">how to join online sports gaming website</strong> but get confused by complicated processes. At Kheloo24Betting.live, we've simplified everything. Our <strong className="text-foreground">online sports gaming platform</strong> lets you join via WhatsApp in under 60 seconds.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             No app download required. No lengthy registration forms. Just open WhatsApp, send us a message, and receive your free cricket ID. That's how simple it is to join this <strong className="text-foreground">sports betting platform online</strong>.
@@ -46,7 +46,7 @@ const BlogHowToJoin = () => {
             <div className="flex gap-4 p-4 rounded-xl bg-card/50 border border-border">
               <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-sm">1</span>
               <div>
-                <h3 className="font-bold mb-1">Click "Join" on Kheloo24Ids.live</h3>
+                <h3 className="font-bold mb-1">Click "Join" on Kheloo24Betting.live</h3>
                 <p className="text-sm text-muted-foreground">Visit the website and tap the Join button to open WhatsApp chat.</p>
               </div>
             </div>
@@ -81,7 +81,7 @@ const BlogHowToJoin = () => {
         </div>
       </article>
 
-      <RelatedLinks links={[{ to: "/blog/how-to-login-kheloo24ids", label: "How to Login Kheloo24Ids" }, { to: "/blog/how-to-use-kheloo24ids-online", label: "How to Use Kheloo24Ids" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
+      <RelatedLinks links={[{ to: "/blog/how-to-login-kheloo24betting", label: "How to Login Kheloo24Betting" }, { to: "/blog/how-to-use-kheloo24betting-online", label: "How to Use Kheloo24Betting" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

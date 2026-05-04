@@ -8,8 +8,8 @@ interface SeoProps {
   ogImage?: string;
 }
 
-const SITE = "https://kheloo24ids.live";
-const SITE_NAME = "Kheloo24Ids.live";
+const SITE = "https://kheloo24betting.live";
+const SITE_NAME = "Kheloo24Betting.live";
 const DEFAULT_OG_IMAGE = "/og-image.jpg";
 
 export function useSeo({ title, description, canonical, keywords, ogImage }: SeoProps) {
