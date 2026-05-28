@@ -12,7 +12,7 @@ const Blog = () => {
     title: "How to Login Khelo24Bet Step by Step Guide 2026",
     description: "Complete step by step guide on how to login kheloo24ids with username.",
     canonical: "/blog/how-to-login-kheloo24ids",
-    keywords: "kheloo24ids login, how to login kheloo24ids, kheloo24ids guide",,
+    keywords: "kheloo24ids login, how to login kheloo24ids, kheloo24ids guide",
     ogType: "article"
   });
 

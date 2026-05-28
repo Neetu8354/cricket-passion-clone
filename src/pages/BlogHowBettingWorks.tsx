@@ -15,7 +15,7 @@ const BlogHowBettingWorks = () => {
     title: "How Sports Betting Platforms Work Online 2026 | Khelo24Bet",
     description: "Learn how sports betting platforms work online. Understand odds, deposits, withdrawals and gameplay on Khelo24Bet.",
     canonical: "/blog/how-sports-betting-platforms-work-online",
-    keywords: "how betting works, sports betting explained, online betting guide",,
+    keywords: "how betting works, sports betting explained, online betting guide",
     ogType: "article"
   });
 

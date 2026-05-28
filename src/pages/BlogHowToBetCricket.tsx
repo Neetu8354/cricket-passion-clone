@@ -15,7 +15,7 @@ const BlogHowToBetCricket = () => {
     title: "How to Bet on Live Cricket Matches Online 2026 | Khelo24Bet",
     description: "Learn how to bet on live cricket matches online in 2026. Complete guide to live cricket betting on Khelo24Bet with best odds.",
     canonical: "/blog/how-to-bet-on-live-cricket-matches-online",
-    keywords: "bet on live cricket, live cricket betting, how to bet cricket online",,
+    keywords: "bet on live cricket, live cricket betting, how to bet cricket online",
     ogType: "article"
   });
 
