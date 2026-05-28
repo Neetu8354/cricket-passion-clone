@@ -42,11 +42,11 @@ export const Footer = () => (
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-neon shadow-glow">
             <span className="font-black text-sm text-primary-foreground">K24</span>
           </div>
-          <span className="font-black text-lg">
-            <span className="text-primary">Khelo24</span><span className="text-secondary">Login</span>
+          <span className="font-display font-black text-lg">
+            <span className="text-primary">Khelo24</span><span className="text-secondary">Bet</span>
           </span>
         </Link>
-        <p className="text-sm text-muted-foreground mb-4">India's most trusted online sports gaming platform. WhatsApp-first, INR-only, instant payouts.</p>
+        <p className="text-sm text-muted-foreground mb-4 leading-relaxed">India's most trusted online sports gaming destination. WhatsApp-first, INR-only, payouts in under 5 minutes — 24×7.</p>
         <button onClick={openWA} className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent text-accent-foreground font-bold text-sm hover:opacity-90">
           <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
         </button>
