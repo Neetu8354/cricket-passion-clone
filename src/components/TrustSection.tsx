@@ -1,44 +1,51 @@
 import { openWA } from "@/lib/wa";
-import { Button } from "@/components/ui/button";
-import { MessageCircle, Zap, CreditCard, Smartphone, Headphones } from "lucide-react";
+import { MessageCircle, Zap, Smartphone, Headphones, ShieldCheck, BadgeCheck } from "lucide-react";
 
 const REASONS = [
-  { icon: MessageCircle, title: "Instant Free Cricket ID", desc: "Get your cricket ID on WhatsApp in under 60 seconds — completely free." },
-  { icon: Zap, title: "Fast Withdrawals", desc: "Withdrawals processed in under 5 minutes directly to your bank or UPI." },
-  { icon: Smartphone, title: "Mobile Friendly Sports Betting Platforms", desc: "Play anywhere on any device — fully optimized for mobile gaming." },
-  { icon: Headphones, title: "24x7 Support", desc: "Always available via WhatsApp in Hindi, English, Telugu & Tamil." },
+  { icon: MessageCircle, title: "60-Second Free ID", desc: "Your cricket ID delivered on WhatsApp in under a minute — verified, secure, ready to play." },
+  { icon: Zap, title: "Lightning Withdrawals", desc: "Cashouts settle to UPI, IMPS or bank in under 5 minutes — every hour, every day." },
+  { icon: Smartphone, title: "Mobile-First Experience", desc: "Engineered for Indian networks — buttery smooth on any phone, any plan." },
+  { icon: Headphones, title: "Always-On Support", desc: "24×7 WhatsApp care in Hindi, English, Telugu and Tamil — real humans, no bots." },
 ];
 
 export const TrustSection = () => (
-  <section className="container py-10 md:py-14">
-    <div className="text-center mb-8">
-      <h2 className="text-2xl md:text-4xl font-black tracking-tight">
-        India's Trusted <span className="text-gradient-gold">Online Sports Gaming</span> Platform
+  <section className="container py-14 md:py-20">
+    <div className="text-center mb-12 max-w-3xl mx-auto">
+      <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass text-primary text-xs font-bold tracking-[0.2em] mb-5">
+        <BadgeCheck className="h-3.5 w-3.5" /> TRUSTED BY 12 LAKH+ PLAYERS
+      </span>
+      <h2 className="font-display text-3xl md:text-5xl font-black tracking-tight leading-[1.05]">
+        Built on Trust. <br className="hidden md:block" />
+        <span className="text-gradient-gold">Backed by Thousands.</span>
       </h2>
-      <p className="text-sm md:text-base text-muted-foreground mt-3 max-w-2xl mx-auto">
-        Enjoy fast and secure betting on Khelo24Bet — one of the best places for online sports gaming. Whether you're looking for a <strong className="text-foreground">kheloo24ids online platform</strong> to play cricket, Aviator or Teen Patti, we've got you covered with India's most trusted <strong className="text-foreground">sports betting platform online</strong>.
+      <p className="text-base md:text-lg text-muted-foreground mt-5 leading-relaxed">
+        Khelo24Bet is India's most trusted online sports gaming destination — a <strong className="text-foreground">verified cricket platform</strong> trusted by players for fast withdrawals, fair odds and round-the-clock support on every device.
       </p>
     </div>
 
-    <h2 className="text-xl md:text-2xl font-black tracking-tight mb-6 text-center">
-      Why Players <span className="text-gradient-gold">Choose Us</span>
-    </h2>
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-      {REASONS.map((r) => (
-        <button key={r.title} onClick={openWA} className="p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all text-left group">
-          <div className="h-11 w-11 rounded-lg bg-primary/15 border border-primary/30 flex items-center justify-center mb-3 group-hover:bg-primary/25 transition-all">
+      {REASONS.map((r, idx) => (
+        <button
+          key={r.title}
+          onClick={openWA}
+          style={{ animationDelay: `${idx * 80}ms` }}
+          className="animate-fade-up group relative overflow-hidden p-6 rounded-2xl bg-gradient-card hairline hover:border-primary/40 transition-smooth text-left shadow-card hover:shadow-elevated hover:-translate-y-1"
+        >
+          <div className="absolute -top-16 -right-16 h-32 w-32 rounded-full bg-primary/20 blur-3xl opacity-0 group-hover:opacity-100 transition-smooth" />
+          <div className="relative h-12 w-12 rounded-xl bg-primary/10 border border-primary/30 flex items-center justify-center mb-4 group-hover:bg-primary/20 group-hover:scale-110 transition-smooth">
             <r.icon className="h-5 w-5 text-primary" />
           </div>
-          <h3 className="font-bold mb-1 text-sm">{r.title}</h3>
-          <p className="text-xs text-muted-foreground">{r.desc}</p>
+          <h3 className="font-display font-bold mb-2 text-base">{r.title}</h3>
+          <p className="text-sm text-muted-foreground leading-relaxed">{r.desc}</p>
         </button>
       ))}
     </div>
 
-    <div className="mt-8 text-center">
-      <p className="text-sm text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-        Khelo24Bet is among the <strong className="text-foreground">safe online sports betting websites 2026</strong> that Indian players trust. As a leading <strong className="text-foreground">mobile friendly sports betting platform</strong>, we offer seamless gameplay on every device with <strong className="text-foreground">fast withdrawal betting</strong> processed in under 5 minutes. Join thousands of players who already use our <strong className="text-foreground">online sports gaming platform</strong> daily.
-      </p>
+    <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-xs text-muted-foreground">
+      <span className="inline-flex items-center gap-1.5"><ShieldCheck className="h-4 w-4 text-primary" /> SSL Secured</span>
+      <span className="inline-flex items-center gap-1.5"><BadgeCheck className="h-4 w-4 text-primary" /> Verified Payouts</span>
+      <span className="inline-flex items-center gap-1.5"><Zap className="h-4 w-4 text-primary" /> Under 5-Min Withdrawals</span>
+      <span className="inline-flex items-center gap-1.5">★ 4.9/5 Player Rating</span>
     </div>
   </section>
 );
