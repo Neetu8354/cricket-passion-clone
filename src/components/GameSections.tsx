@@ -51,20 +51,18 @@ const Card = ({ g }: { g: Game }) => (
   </button>
 );
 
-const Section = ({ title, sub, games }: { title: string; sub: string; games: Game[] }) => (
-  <section className="container py-10 md:py-14">
-    <div className="flex items-end justify-between mb-6">
+const Section = ({ title, accent, sub, games }: { title: string; accent: string; sub: string; games: Game[] }) => (
+  <section className="container py-14 md:py-20">
+    <div className="flex items-end justify-between mb-8 gap-4">
       <div>
-        <h2 className="text-2xl md:text-4xl font-black tracking-tight">
-          {title.split(" ").map((w, i) => (
-            <span key={i} className={i === 1 ? "text-gradient-gold" : ""}>{w} </span>
-          ))}
+        <h2 className="font-display text-3xl md:text-5xl font-black tracking-tight leading-[1.05]">
+          {title} <span className="text-gradient-gold">{accent}</span>
         </h2>
-        <p className="text-sm text-muted-foreground mt-1">{sub}</p>
+        <p className="text-sm md:text-base text-muted-foreground mt-3 max-w-xl">{sub}</p>
       </div>
-      <button onClick={openWA} className="hidden md:block text-sm font-semibold text-primary hover:underline">View all →</button>
+      <button onClick={openWA} className="hidden md:inline-flex items-center gap-1 text-sm font-semibold text-primary hover:gap-2 transition-all">View all →</button>
     </div>
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-5">
       {games.map((g, i) => <Card key={i} g={g} />)}
     </div>
   </section>
@@ -72,7 +70,7 @@ const Section = ({ title, sub, games }: { title: string; sub: string; games: Gam
 
 export const GameSections = () => (
   <>
-    <Section title="Cricket Hub" sub="IPL, T20, ODI — fantasy, predictions, live scores" games={CRICKET} />
-    <Section title="Live Casino" sub="Authentic Indian casino games with real dealers" games={CASINO} />
+    <Section title="Cricket" accent="Hub" sub="IPL, T20 & ODI fixtures — live odds, fantasy XI, ball-by-ball predictions and stat-rich leaderboards." games={CRICKET} />
+    <Section title="Live" accent="Casino" sub="Authentic Indian casino streamed in HD with real dealers — Andar Bahar, Teen Patti, Roulette and more." games={CASINO} />
   </>
 );

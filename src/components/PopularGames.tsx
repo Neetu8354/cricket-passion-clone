@@ -12,13 +12,16 @@ const GAMES = [
 ];
 
 export const PopularGames = () => (
-  <section className="container py-10 md:py-14">
-    <div className="text-center mb-8">
-      <h2 className="text-2xl md:text-4xl font-black tracking-tight">
-        Popular <span className="text-gradient-gold">Games</span>
+  <section className="container py-14 md:py-20">
+    <div className="text-center mb-10 max-w-2xl mx-auto">
+      <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass text-primary text-xs font-bold tracking-[0.2em] mb-5">
+        🔥 PLAYER FAVOURITES
+      </span>
+      <h2 className="font-display text-3xl md:text-5xl font-black tracking-tight">
+        Most Played This <span className="text-gradient-gold">Week</span>
       </h2>
-      <p className="text-sm text-muted-foreground mt-2 max-w-2xl mx-auto">
-        Explore top games on <strong className="text-foreground">kheloo24ids.live</strong> — from <strong className="text-foreground">live cricket betting</strong> and <strong className="text-foreground">Aviator crash game</strong> to <strong className="text-foreground">Teen Patti online</strong>. Get your <strong className="text-foreground">free cricket ID</strong> and start playing today.
+      <p className="text-sm md:text-base text-muted-foreground mt-4 leading-relaxed">
+        From <strong className="text-foreground">live cricket betting</strong> to the high-altitude rush of <strong className="text-foreground">Aviator</strong> and India's all-time classic <strong className="text-foreground">Teen Patti</strong> — pick your stage and play in seconds.
       </p>
     </div>
     <div className="grid sm:grid-cols-3 gap-4">
