@@ -12,10 +12,11 @@ import blogImg from "@/assets/card-fantasy.jpg";
 
 const BlogBestPlatform = () => {
   useSeo({
-    title: "Best Online Sports Betting Platform for Beginners 2026 | Khelo24Bet",
-    description: "Looking for the best online sports betting platform for beginners? Khelo24Bet is India's easiest platform with free ID, fast payouts and 24x7 support.",
+    title: "Best Betting Platform for Beginners 2026 | Khelo24Bet",
+    description: "Khelo24Bet is India's easiest online sports betting platform for beginners — free cricket ID, fast UPI payouts and 24x7 WhatsApp support.",
     canonical: "/blog/best-online-sports-betting-platform-for-beginners",
     keywords: "best betting platform beginners, online sports betting, kheloo24ids beginners",
+    ogType: "article",
   });
 
   return (
