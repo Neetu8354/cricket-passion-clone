@@ -16,6 +16,7 @@ const BlogMobileFriendly = () => {
     description: "Discover the best mobile friendly sports betting platforms in 2026. Khelo24Bet works perfectly on all phones with no app download needed.",
     canonical: "/blog/mobile-friendly-sports-betting-platforms",
     keywords: "mobile betting platform, mobile friendly betting, kheloo24ids mobile",
+    ogType: "article"
   });
 
   return (

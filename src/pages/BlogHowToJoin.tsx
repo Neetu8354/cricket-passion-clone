@@ -16,6 +16,7 @@ const BlogHowToJoin = () => {
     description: "Complete guide on how to join online sports gaming website Khelo24Bet. Get free cricket ID, deposit via UPI, and start playing instantly.",
     canonical: "/blog/how-to-join-online-sports-gaming-website",
     keywords: "join sports gaming website, free cricket id, kheloo24ids join",
+    ogType: "article"
   });
 
   return (

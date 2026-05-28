@@ -16,6 +16,7 @@ const BlogCricketPrediction = () => {
     description: "Find the best cricket prediction sites online in 2026. Khelo24Bet offers ML-powered predictions, live odds and expert analysis.",
     canonical: "/blog/best-cricket-prediction-sites-online",
     keywords: "cricket prediction sites, best prediction 2026, cricket betting predictions",
+    ogType: "article"
   });
 
   return (

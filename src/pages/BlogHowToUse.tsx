@@ -16,6 +16,7 @@ const BlogHowToUse = () => {
     description: "Learn how to use kheloo24ids online platform. Step by step guide to access the best online sports gaming platform and start playing instantly.",
     canonical: "/blog/how-to-use-kheloo24ids-online",
     keywords: "how to use kheloo24ids, kheloo24ids guide, online sports platform",
+    ogType: "article"
   });
 
   return (

@@ -39,11 +39,11 @@ const BlogListing = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {BLOGS.map((b) => (
-            <Link key={b.slug} to={b.slug} className="group p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
+            <Link key={b.slug} to={b.slug} aria-label={`Read: ${b.title}`} className="group p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
               <h2 className="font-bold mb-2 group-hover:text-primary transition-colors text-sm md:text-base">{b.title}</h2>
               <p className="text-xs text-muted-foreground mb-3">{b.desc}</p>
               <span className="inline-flex items-center gap-1 text-xs font-semibold text-primary">
-                Read More <ArrowRight className="h-3 w-3" />
+                Read {b.title.split("|")[0].trim().slice(0, 32)} <ArrowRight className="h-3 w-3" />
               </span>
             </Link>
           ))}

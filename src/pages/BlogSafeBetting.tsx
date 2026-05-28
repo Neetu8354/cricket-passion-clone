@@ -16,6 +16,7 @@ const BlogSafeBetting = () => {
     description: "Discover safe online sports betting websites in 2026. Khelo24Bet offers secure transactions, verified gameplay and fast withdrawals.",
     canonical: "/blog/safe-online-sports-betting-websites-2026",
     keywords: "safe betting websites, secure sports betting, trusted betting platform",
+    ogType: "article"
   });
 
   return (

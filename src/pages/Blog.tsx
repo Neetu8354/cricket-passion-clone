@@ -13,6 +13,7 @@ const Blog = () => {
     description: "Complete step by step guide on how to login kheloo24ids with username.",
     canonical: "/blog/how-to-login-kheloo24ids",
     keywords: "kheloo24ids login, how to login kheloo24ids, kheloo24ids guide",
+    ogType: "article"
   });
 
   return (

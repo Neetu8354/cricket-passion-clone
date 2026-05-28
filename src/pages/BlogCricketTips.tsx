@@ -16,6 +16,7 @@ const BlogCricketTips = () => {
     description: "Get the best live cricket betting tips online for 2026. Expert predictions, match analysis and winning strategies on Khelo24Bet.",
     canonical: "/blog/live-cricket-betting-tips-online",
     keywords: "cricket betting tips, live cricket tips, betting predictions 2026",
+    ogType: "article"
   });
 
   return (

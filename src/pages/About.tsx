@@ -18,8 +18,8 @@ const FEATURES = [
 
 const About = () => {
   useSeo({
-    title: "About Us – Khelo24Bet | Trusted Online Sports Gaming Platform",
-    description: "Khelo24Bet is a safe and reliable online sports gaming platform in India with fast payouts and 24x7 support.",
+    title: "About Khelo24Bet | Trusted Sports Gaming India",
+    description: "Khelo24Bet is a safe and reliable online sports gaming platform in India with fast UPI payouts and 24x7 WhatsApp support.",
     canonical: "/about",
     keywords: "kheloo24ids about, online sports gaming platform india, safe betting platform",
   });
