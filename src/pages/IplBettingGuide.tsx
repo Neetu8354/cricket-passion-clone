@@ -137,7 +137,7 @@ const IplBettingGuide = () => {
               The complete 2026 IPL betting playbook for Indian players. Master match-winner odds, live in-play markets, top-batsman value bets and disciplined bankroll strategy — with UPI deposits in 30 seconds and withdrawals in under 5 minutes on Khelo24Bet.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Button size="lg" onClick={() => openWA("Hi! I want to start IPL 2026 betting on Khelo24Bet.")} className="gap-2">
+              <Button size="lg" onClick={openWA} className="gap-2">
                 <MessageCircle className="w-5 h-5" /> Get Free IPL ID on WhatsApp
               </Button>
               <Button size="lg" variant="outline" asChild>
@@ -223,7 +223,7 @@ const IplBettingGuide = () => {
                 </li>
               ))}
             </ol>
-            <Button size="lg" className="mt-6 gap-2" onClick={() => openWA("Hi! Send me my IPL 2026 betting ID.")}>
+            <Button size="lg" className="mt-6 gap-2" onClick={openWA}>
               <MessageCircle className="w-5 h-5" /> Start in 60 Seconds
             </Button>
           </div>
@@ -344,7 +344,7 @@ const IplBettingGuide = () => {
           <p className="text-base md:text-lg mb-6 opacity-95">
             Start IPL 2026 betting today. 100% bonus on first deposit. 5-minute UPI withdrawal. 24x7 WhatsApp support. No app, no documents, no waiting.
           </p>
-          <Button size="lg" variant="secondary" onClick={() => openWA("Hi! I want my ₹10,000 IPL welcome bonus.")} className="gap-2">
+          <Button size="lg" variant="secondary" onClick={openWA} className="gap-2">
             <MessageCircle className="w-5 h-5" /> Get Free ID on WhatsApp Now
           </Button>
           <p className="text-xs mt-4 opacity-80 flex items-center justify-center gap-1">
@@ -379,7 +379,14 @@ const IplBettingGuide = () => {
         </div>
       </section>
 
-      <RelatedLinks />
+      <RelatedLinks
+        links={[
+          { to: "/cricket", label: "Live Cricket Betting Markets" },
+          { to: "/aviator-strategies", label: "Aviator Game Tricks & Strategies" },
+          { to: "/blog/live-cricket-betting-tips-online", label: "Live Cricket Betting Tips" },
+          { to: "/blog/how-to-bet-on-live-cricket-matches-online", label: "How To Bet On Live Cricket Matches" },
+        ]}
+      />
       <Footer />
       <FloatingWhatsApp />
     </div>
