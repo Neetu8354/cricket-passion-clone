@@ -8,6 +8,7 @@ import About from "./pages/About.tsx";
 import Cricket from "./pages/Cricket.tsx";
 import Aviator from "./pages/Aviator.tsx";
 import AviatorStrategies from "./pages/AviatorStrategies.tsx";
+import IplBettingGuide from "./pages/IplBettingGuide.tsx";
 import TeenPatti from "./pages/TeenPatti.tsx";
 import Blog from "./pages/Blog.tsx";
 import BlogListing from "./pages/BlogListing.tsx";
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/cricket" element={<Cricket />} />
           <Route path="/aviator" element={<Aviator />} />
           <Route path="/aviator-strategies" element={<AviatorStrategies />} />
+          <Route path="/ipl-betting-guide-2026" element={<IplBettingGuide />} />
           <Route path="/teen-patti" element={<TeenPatti />} />
           <Route path="/blog" element={<BlogListing />} />
           <Route path="/blog/how-to-login-kheloo24ids" element={<Blog />} />
