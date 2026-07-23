@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "kheloo24betting.live"
+        }
+      ],
+      "destination": "https://www.kheloo24betting.live/:path*",
+      "permanent": true
+    }
+  ]
+}
