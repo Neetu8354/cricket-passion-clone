@@ -9,7 +9,7 @@ interface SeoProps {
   ogType?: "website" | "article";
 }
 
-const SITE = "https://kheloo24betting.live";
+const SITE = "https://www.kheloo24betting.live";
 const SITE_NAME = "Khelo24Bet";
 const DEFAULT_OG_IMAGE = `${SITE}/og-image.jpg`;
 

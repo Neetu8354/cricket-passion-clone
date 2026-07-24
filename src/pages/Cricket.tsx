@@ -28,15 +28,15 @@ const Cricket = () => {
     "@type": "SportsEvent",
     name: "Live Cricket Betting on Khelo24Bet",
     description: "Bet on live cricket matches online including IPL, T20 World Cup, ODI and all major tournaments with the best odds.",
-    url: "https://kheloo24ids.live/cricket",
+    url: "https://www.kheloo24betting.live/cricket",
     location: {
       "@type": "VirtualLocation",
-      url: "https://kheloo24ids.live/cricket",
+      url: "https://www.kheloo24betting.live/cricket",
     },
     organizer: {
       "@type": "Organization",
       name: "Khelo24Bet",
-      url: "https://kheloo24ids.live",
+      url: "https://www.kheloo24betting.live",
     },
     sport: "Cricket",
     eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",

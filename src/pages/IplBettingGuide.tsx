@@ -16,7 +16,7 @@ import heroImg from "@/assets/promo-live.jpg";
 import tipsImg from "@/assets/promo-fantasy.jpg";
 import safetyImg from "@/assets/promo-arcade.jpg";
 
-const SITE = "https://kheloo24betting.live";
+const SITE = "https://www.kheloo24betting.live";
 
 const FAQS = [
   { q: "Is IPL betting legal in India in 2026?", a: "IPL betting laws vary state by state in India. Online betting on private international platforms like Khelo24Bet is accessible in most states, but states like Telangana, Andhra Pradesh, Tamil Nadu, Karnataka, and Sikkim have specific restrictions. Always check your local state laws before placing real-money bets." },

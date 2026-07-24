@@ -16,7 +16,7 @@ import heroImg from "@/assets/promo-arcade.jpg";
 import strategyImg from "@/assets/promo-live.jpg";
 import winImg from "@/assets/promo-fantasy.jpg";
 
-const SITE = "https://kheloo24ids.live";
+const SITE = "https://www.kheloo24betting.live";
 
 const FAQS = [
   { q: "Is the Aviator game legal in India?", a: "Aviator is a skill-based crash game offered on private gaming platforms. Khelo24Bet operates under international licensing and is accessible in most Indian states. Always check your local state laws before playing real-money games." },
